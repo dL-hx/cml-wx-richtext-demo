@@ -1,0 +1,8 @@
+{
+    "usingComponents": {
+        "m-rich-text": "./../../components/m-rich-text/m-rich-text"
+    },
+    "navigationBarTitleText": "资讯详情",
+    "backgroundTextStyle": "dark",
+    "backgroundColor": "#E2E2E2"
+}

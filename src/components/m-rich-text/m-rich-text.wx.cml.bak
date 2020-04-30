@@ -1,0 +1,74 @@
+<template>
+  <view class="contain">
+<!--
+多态组件可以使用 CML 内建标签， 加上各平台类型所支持的原生标签，
+使用其他标签验证不同过。在使用平台类型支持的原生标签时，
+必须使用 'origin-'  为前缀。
+比如: 在 wx 平台下使用 rich-text 标签，那么在模板里的写法是 'rich-text'.
+-->
+    <origin-rich-text nodes="{{ nodes }}"></origin-rich-text>
+  </view>
+</template>
+
+<script>
+
+class MRichText implements MRichTextInterface {
+  props = {
+    nodes: {
+      type: String,
+      default: ''
+    }
+  }
+
+  data = {
+
+  }
+
+  computed = {
+  }
+
+  watch = {
+  }
+
+  methods = {
+  }
+
+  beforeCreate() {
+  }
+
+  created() {
+  }
+
+  beforeMount() {
+  }
+
+  mounted() {
+
+  }
+
+  beforeDestroy() {
+  }
+
+  destroyed() {
+  }
+}
+
+export default new MRichText();
+</script>
+
+<style scoped>
+    .contain{
+        padding: 20cpx
+    }
+
+
+</style>
+
+<script cml-type="json">
+{
+  "base": {
+   "component": true,
+   "usingComponents": {}
+  }
+}
+</script>

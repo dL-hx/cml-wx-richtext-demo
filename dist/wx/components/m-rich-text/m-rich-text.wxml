@@ -1,0 +1,4 @@
+<view class="contain  cml-base cml-view">
+    
+    <parser html="{{nodes}}" tag-style="{{tagStyle}}" class=" cml-view cml-parser"></parser>
+</view>

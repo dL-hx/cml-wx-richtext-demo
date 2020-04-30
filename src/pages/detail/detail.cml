@@ -1,0 +1,86 @@
+<template>
+  <view class="article">
+    <text class="article-title">{{ title }}</text>
+    <view class="article-content">
+      <m-rich-text nodes="{{ content }}"> </m-rich-text>
+    </view>
+  </view>
+</template>
+
+<script>
+  import cml from 'chameleon-api'
+  import newsData from '../../assets/json/news.json'
+  class Detail   {
+
+    data = {
+      // title:'资讯标题',
+      title:newsData.data.title,
+      // content:'<div>我是HTML代码</div>',
+      content:newsData.data.content,
+    }
+
+    computed = {
+    }
+
+    watch  = {
+    }
+
+    methods = {
+
+    }
+
+    beforeCreate(query) {
+    }
+
+    created(query) {
+    }
+
+    beforeMount(query) {
+
+    }
+
+    onShow() {
+    }
+
+    mounted() {
+    }
+
+    onHide() {
+    }
+
+    beforeDestroy() {
+    }
+
+    destroyed() {
+    }
+  }
+
+  export default new Detail();
+</script>
+
+<style>
+  .article-title{
+    padding: 20cpx 30cpx;
+    font-size: 36cpx;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+
+</style>
+
+<script cml-type="json">
+  {
+    "base": {
+    "usingComponents": {
+      "m-rich-text": "../../components/m-rich-text/m-rich-text"
+    }
+  },
+    "wx": {
+    "navigationBarTitleText": "资讯详情",
+            "backgroundTextStyle": "dark",
+            "backgroundColor": "#E2E2E2"
+  }
+  }
+</script>

@@ -1,0 +1,6 @@
+<view class="article  cml-base cml-view">
+  <text class="article-title  cml-base cml-text">{{title}}</text>
+  <view class="article-content  cml-base cml-view">
+    <m-rich-text nodes="{{ content }}" class=" cml-view cml-m-rich-text"> </m-rich-text>
+  </view>
+</view>

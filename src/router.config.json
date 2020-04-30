@@ -1,0 +1,12 @@
+{
+  "mode": "history",
+  "domain": "https://www.chameleon.com",
+  "routes":[
+    {
+      "url": "/cml/h5/detail",
+      "path": "/pages/detail/detail",
+      "name": "资讯详情",
+      "mock": "index.php"
+    }
+  ]
+}

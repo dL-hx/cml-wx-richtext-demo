@@ -1,0 +1,8 @@
+@import '/static/css/page.wxss'; 
+ .article-title {
+  padding: 20rpx 30rpx;
+  font-size: 36rpx;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+}

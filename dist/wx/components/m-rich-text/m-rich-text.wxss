@@ -1,0 +1,5 @@
+@import '/static/css/index.wxss'; 
+ .contain {
+  padding: 30rpx;
+  font-size: 28rpx;
+}
